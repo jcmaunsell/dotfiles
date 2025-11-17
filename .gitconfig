@@ -4,12 +4,12 @@
 [include]
   path = /Users/j.maunsell/.config/gitsign/gitconfig
 [push]
-	autoSetupRemote = true
+  autoSetupRemote = true
 [core]
-	editor = vim
-	hooksPath = /usr/local/dd/global_hooks
+  editor = vim
+  hooksPath = /usr/local/dd/global_hooks
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [fetch]
   prune = true
 [pull]
