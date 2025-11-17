@@ -1,0 +1,19 @@
+[user]
+  email = j.maunsell@datadoghq.com
+  name = James Maunsell
+[url "git@github.com"]
+  insteadOf = https://github.com
+  insteadOf = git://github.com/
+[include]
+  path = /Users/j.maunsell/.config/gitsign/gitconfig
+[push]
+	autoSetupRemote = true
+[core]
+	editor = vim
+	hooksPath = /usr/local/dd/global_hooks
+[init]
+	defaultBranch = main
+[fetch]
+  prune = true
+[pull]
+  rebase = false
