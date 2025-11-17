@@ -30,7 +30,7 @@ source $ZSH/oh-my-zsh.sh
 #############################################################
 #                       Git Utilities                       #
 #############################################################
-export BRANCH_PREFIX=changeme  # your GitHub username is a good choice
+export BRANCH_PREFIX=jcmaunsell # your GitHub username is a good choice
 
 # Make a new branch
 branch() {
